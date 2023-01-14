@@ -196,16 +196,12 @@
     color: #727272;
 }
 
-.loving-features-container img {
-    /* width:650px;
-    height:500px; */
+/* facts styles  */
+.facts {
+    margin-top: 85px;
+    padding: 0px 50px 20px 68px;
 }
 
-/* facts styles  */
-.facts{
-    margin-top:85px;
-    padding:0px 50px 20px 68px;
-}
 .facts-title {
     font-weight: 700;
     font-size: 45px;
@@ -218,4 +214,29 @@
     font-size: 16px;
     color: #727272;
     margin-bottom: 15px;
+}
+
+.achievements-details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.award {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 180px;
+    padding-top: 40px;
+
+}
+.award-digit{
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+}
+.award-description{
+    font-weight: 600;
+    font-size: 18px;
+    color: #727272;
 }
