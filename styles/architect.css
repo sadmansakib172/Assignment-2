@@ -30,7 +30,7 @@
 .btn-secondary {
     width: 258px;
     height: 120px;
-    padding:20px;
+    padding: 20px;
     text-align: center;
     font-weight: 700;
     font-size: 45px;
@@ -39,7 +39,7 @@
     padding: 10px;
     border-radius: 8px;
     border: none;
-    margin:-300px 0 0 650px;
+    margin: -300px 0 0 650px;
 }
 
 .second-button {
@@ -199,4 +199,23 @@
 .loving-features-container img {
     /* width:650px;
     height:500px; */
+}
+
+/* facts styles  */
+.facts{
+    margin-top:85px;
+    padding:0px 50px 20px 68px;
+}
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 15px;
+}
+
+.facts-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 15px;
 }
