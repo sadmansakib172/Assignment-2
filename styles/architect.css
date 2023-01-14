@@ -4,9 +4,27 @@
 }
 
 /* header styles */
-.container{
+.container {
     background: rgba(255, 144, 14, 0.1);
-    padding:50px 300px 85px 320px;
+    padding: 50px 120px 85px 140px;
+}
+
+/* .container-2 {
+    background: #FFFFFF;
+    padding: 50px 300px 85px 320px;
+} */
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
 }
 
 .navbar {
@@ -40,7 +58,7 @@
 .brand-new-section {
     text-align: center;
     justify-content: center;
-    margin-top:100px;
+    margin-top: 100px;
 }
 
 .brand-title {
@@ -56,24 +74,53 @@
     margin-top: 10px;
 }
 
-.btn-primary {
-    width: 180px;
-    height: 64px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #FFFFFF;
-    background: #FF900E;
-    border-radius: 8px;
-    padding: 10px;
-    border: none;
-    margin-top: 30px;
-
-}
 /* banner styles */
 
 .banner img {
-    width: 862px;
-    height: 450px;
-    margin-top:50px;
+    width: 1240px;
+    height: 720px;
+    margin-top: 50px;
     margin-bottom: 45px;
+}
+
+/* features styles  */
+.container-2{
+    margin-top:85px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.features-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    margin-left: 50px;
+
+}
+.features-list {
+    margin-left: 50px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 35px;
+    color: #727272;
+}
+.bold{
+    font-weight: 700;
+    color:#131313
+}
+.yellow{
+    color:#FF900E;
+}
+.features-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top:20px;
 }
