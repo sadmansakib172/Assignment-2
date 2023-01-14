@@ -27,6 +27,26 @@
     margin-top: 30px;
 }
 
+.btn-secondary {
+    width: 258px;
+    height: 120px;
+    padding:20px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin:-300px 0 0 650px;
+}
+
+.second-button {
+    font-weight: 500;
+    font-size: 25px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -84,15 +104,16 @@
 }
 
 /* features styles  */
-.container-2{
-    margin-top:85px;
+.features-section {
+    margin-top: 85px;
 }
-.features{
+
+.features {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 .features-images {
@@ -102,6 +123,7 @@
     margin-left: 50px;
 
 }
+
 .features-list {
     margin-left: 50px;
 }
@@ -111,16 +133,70 @@
     font-size: 35px;
     color: #727272;
 }
-.bold{
+
+.bold {
     font-weight: 700;
-    color:#131313
+    color: #131313
 }
-.yellow{
-    color:#FF900E;
+
+.yellow {
+    color: #FF900E;
 }
-.features-description{
+
+.features-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-top:20px;
+    margin-top: 20px;
+}
+
+/* loving features styles  */
+.loving-features-container {
+    display: flex;
+    padding: 85px 120px 85px 120px;
+}
+
+.grid {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.loving-features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.loving-features-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+
+.loving-features-common-items {
+    width: 400px;
+    height: 150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.loving-features-common-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.loving-features-common-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.loving-features-container img {
+    /* width:650px;
+    height:500px; */
 }
