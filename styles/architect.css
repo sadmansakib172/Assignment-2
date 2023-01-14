@@ -156,7 +156,7 @@
     padding: 85px 120px 85px 120px;
 }
 
-.grid {
+.loving-features-info{
     margin-top: 120px;
     margin-left: 20px;
 }
@@ -230,13 +230,49 @@
     padding-top: 40px;
 
 }
-.award-digit{
+
+.award-digit {
     font-weight: 600;
     font-size: 30px;
     color: #424242;
 }
-.award-description{
+
+.award-description {
     font-weight: 600;
     font-size: 18px;
     color: #727272;
+}
+
+.sponsor {
+    margin-top: 100px;
+}
+
+.sponsor-details {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sponsor-name {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.sponsor-name img {
+    width: 100px;
+    height: 40px;
+    padding: 20px 95px 85px 95px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 120px 120px 150px 120px;
+    height: 100px;
+}
+.footer-description{
+    padding-top:40px;
 }
