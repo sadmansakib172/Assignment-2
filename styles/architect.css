@@ -201,6 +201,9 @@
     margin-top: 35px;
     padding: 0px 50px 20px 68px;
 }
+.facts-details{
+    padding-left: 80px;
+}
 
 .facts-title {
     font-weight: 700;
@@ -310,7 +313,8 @@
     background: #FFF4E7;
     border-radius: 8px;
     margin: 120px 120px 150px 120px;
-    height: 100px;
+    height: 140px;
+    justify-content: center;
 }
 .footer-description{
     padding-top:40px;
@@ -338,7 +342,7 @@
     .features{
         flex-direction: column;
         justify-content: flex-start;
-        padding: 0;
+        padding-left: 20px;
     }
     .features-images{
         grid-template-columns: repeat(1,1fr);
@@ -352,6 +356,9 @@
     .achievements-details {
         flex-direction: column;
     }
+    .award{
+        margin-left: 100px;
+    }
     .about-info{
         flex-direction: column;
     }
@@ -360,5 +367,6 @@
     }
     .sponsor-name{
         flex-direction: column;
+        margin-left:100px;
     }
   }
