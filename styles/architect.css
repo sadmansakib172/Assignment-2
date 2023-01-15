@@ -97,8 +97,8 @@
 /* banner styles */
 
 .banner img {
-    width: 1240px;
-    height: 720px;
+    /* width: 1240px;
+    height: 720px; */
     margin-top: 50px;
     margin-bottom: 45px;
 }
@@ -316,18 +316,21 @@
     padding-top:40px;
 }
 
-/* 
+
 @media only screen and (max-width:576px) {
     .navbar{
         flex-direction: column;
     }
     .nav-list ul{
-
-        
+      justify-content: center;
+      padding-top: 30px; 
     }
     .brand-new-section{
-        flex-direction: column;
-        padding: 0;
+         flex-direction: column;
+         padding: 0;
+    } 
+    .brand-title{
+        padding-bottom: 55px;
     }
     .banner img{
         width: 100%;
@@ -337,12 +340,25 @@
         justify-content: flex-start;
         padding: 0;
     }
-    .features-image{
-        padding:0 120px 0 120px;
+    .features-images{
+        grid-template-columns: repeat(1,1fr);
+        margin-left:0;
     }
     .loving-features-container{
         flex-direction: column;
         padding: 0;
         margin: 0;
     }
-  } */
+    .achievements-details {
+        flex-direction: column;
+    }
+    .about-info{
+        flex-direction: column;
+    }
+    .sponsor-details{
+        flex-direction: column;
+    }
+    .sponsor-name{
+        flex-direction: column;
+    }
+  }
